@@ -1,5 +1,6 @@
 def prime?(a)
-if a %2 ==0 
+a.each do |x|
+  while 
   return "number is prime"
 end
 end
