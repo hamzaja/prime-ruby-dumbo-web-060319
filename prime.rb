@@ -4,12 +4,12 @@ def prime?(a)
   else if a<=1
     return false
   else
-  
-  for num in 2..(a-1)
+    for num in 2..(a-1)
     if a % num == 0 
       return false
     else return true
     end
   end
+end
 end
   
