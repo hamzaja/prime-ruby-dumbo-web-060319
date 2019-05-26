@@ -5,9 +5,9 @@ def prime?(a)
     return true
   else
     for num in 2..(a-1)
-    if num%a == 0 
-      return true
-    else return false
+    if a % num == 0 
+      return false
+    else return true
     end
   end
 end
