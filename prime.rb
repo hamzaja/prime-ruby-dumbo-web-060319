@@ -7,7 +7,7 @@ def prime?(a)
     for num in 2..(a-1)
     if num%a == 0 
       return true
-    else return true
+    else return false
     end
   end
 end
