@@ -5,4 +5,4 @@ def prime?(a)
   else return FALSE
   end
 end
-  
+end
