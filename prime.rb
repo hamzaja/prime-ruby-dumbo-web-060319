@@ -6,7 +6,7 @@ def prime?(a)
   else
     for num in 2..(a-1)
     if num%a == 0 
-      return false
+      return true
     else return true
     end
   end
