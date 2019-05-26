@@ -1,6 +1,8 @@
 def prime?(a)
-for a 
-  return "number is prime"
-end
+  for num in 2..(a-1)
+  if a %num ==0
+    return TRUE
+  else return FALSE
+  end
 end
   
