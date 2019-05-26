@@ -10,7 +10,6 @@ def prime?(a)
     end
   end
   true
-  
-end
+  end
 end
  
