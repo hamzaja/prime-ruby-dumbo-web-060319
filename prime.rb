@@ -1,7 +1,7 @@
 def prime?(a)
   if a ==2 
     return true
-  elseif a < 1
+  elsif a < 1
     return false
   else
     for num in 2..(a-1)
