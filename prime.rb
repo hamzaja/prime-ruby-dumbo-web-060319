@@ -1,6 +1,5 @@
 def prime?(a)
-a.each do |x|
-  while 
+for a 
   return "number is prime"
 end
 end
