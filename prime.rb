@@ -2,7 +2,7 @@ def prime?(a)
   if a ==2 
     return true
   end
-  if a<=a
+  if a<=1
     return false
   end
   
